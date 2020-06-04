@@ -46,4 +46,4 @@ npm run test
 
 ## Contributions
 
-Contributions are welcome - please make sure each addition / amend has its associated test.
+Contributions are welcome - please make sure all PRs have their associated test.
