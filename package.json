@@ -1,0 +1,85 @@
+{
+  "name": "@ssdcode/js-mutators",
+  "version": "0.1.0",
+  "description": "Set of methods providing functionality to mutate the given value",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack"
+  },
+  "keywords": [
+    "javascript mutators"
+  ],
+  "author": "Sebastian Sulinski <info@ssdtutorials.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sebastiansulinski/js-mutators.git"
+  },
+  "homepage": "https://github.com/sebastiansulinski/js-mutators#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "babel-loader": "^8.1.0",
+    "eslint": "^7.0.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-prettier": "^3.1.3",
+    "jest": "^26.0.1",
+    "prettier": "^2.0.5",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true
+    },
+    "parserOptions": {
+      "sourceType": "module",
+      "ecmaVersion": 11
+    },
+    "rules": {
+      "semi": [
+        "error",
+        "always"
+      ],
+      "quotes": [
+        "error",
+        "single"
+      ],
+      "no-console": "off",
+      "no-debugger": "off",
+      "no-prototype-builtins": "off"
+    },
+    "overrides": [
+      {
+        "files": [
+          "**/__tests__/*.{j,t}s?(x)",
+          "**/tests/unit/**/*.spec.{j,t}s?(x)"
+        ],
+        "env": {
+          "jest": true
+        }
+      }
+    ],
+    "extends": [
+      "eslint:recommended",
+      "plugin:prettier/recommended"
+    ]
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": true,
+    "singleQuote": true,
+    "arrowParens": "avoid"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
