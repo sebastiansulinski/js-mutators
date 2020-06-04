@@ -1,6 +1,6 @@
 {
   "name": "@ssdcode/js-mutators",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Set of methods providing functionality to mutate the given value",
   "main": "./src/index.js",
   "scripts": {
