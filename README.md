@@ -5,7 +5,7 @@ Set of methods providing functionality to mutate the given value.
 ## Installation
 
 ```bash
-npm install --save-dev @ssdcode/js-mutators@0.1.0
+npm install @ssdcode/js-mutators --save-dev
 ```
 
 Import relevant methods using ES6 import statement
